@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Student Portal</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon/student32.png" type="image/png">
+</head>
+
+<body>
+  <div class="navbar">
+    <h1>Student Portal</h1>
+    <nav>
+      <a href="#profile">Profile</a>
+      <a href="#courses">Courses</a>
+      <a href="#grades">Grades</a>
+      <a href="#logout" id="logoutLink">Logout</a>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="welcome-message">
+      Welcome, <span id="userEmail">student@example.com</span>!
+    </div>
+
+    <div class="content">
+      <h2>Your Dashboard</h2>
+      <p>Here you can access your courses, grades, and profile settings.</p>
+      <ul>
+        <li><a href="#courses">View Courses</a></li>
+        <li><a href="#grades">Check Grades</a></li>
+        <li><a href="#profile">Edit Profile</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Student Portal. All rights reserved.</p>
+  </footer>
+
+  <script src="js/dashboard.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+CHANGES TO APPLY!!!!!!!!!!!!!!!
+
+- in reset password, disable autocomplete
+- in forgot password, when clicking reset password, show an alert first to confirm: 
+    1. code is sent
+    2. user is redirected 
+- UPDATE THE PASSWORD WHEN YOU RESET 
+- add show password icon in reset password
